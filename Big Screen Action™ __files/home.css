@@ -2,7 +2,7 @@
 @import url(//fonts.googleapis.com/css?family=Ubuntu);
 
 #webticker {
-  visibility: hidden;
+  visibility: visible;
 }
 
 .vid_thumb_grid_banner {
@@ -1921,7 +1921,7 @@
 
 @media only screen and (max-width: 1684px) and (min-width: 1384px) {
   #home_body_content_left_col {
-    width: 15%;
+    width: 256px;
   }
 
   #sub_body_content_left_col {
@@ -1930,7 +1930,7 @@
 }
 @media only screen and (max-width: 1384px) and (min-width: 1280px) {
   #home_body_content_left_col {
-    width: 12%;
+    width: 256px;
   }
 
   #sub_body_content_left_col {
