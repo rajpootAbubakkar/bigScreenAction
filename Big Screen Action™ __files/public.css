@@ -113,7 +113,7 @@ div#home_splash_video.box1 {
 }
 @media screen and (min-width: 1024px) {
   #home_body_content_right_col {
-    width: 68% !important;
+    width: 65% !important;
   }
 
   div#home_splash_video.box1 {
