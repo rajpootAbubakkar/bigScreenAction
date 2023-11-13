@@ -108,7 +108,7 @@ div#home_splash_video.box1 {
 }
 @media screen and (min-width: 1280px) {
   #home_body_content_left_col {
-    width: 15% !important;
+    width: 256px !important;
   }
 }
 @media screen and (min-width: 1024px) {
