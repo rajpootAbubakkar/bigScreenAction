@@ -1890,6 +1890,68 @@ ul.vb_logos li img {
 
 /*****************************/
 
+.download_container {
+  width: 275px;
+  height: 47px;
+  background: url("https://screencombat.com/v2/ddyme/site_files/download-bt.gif"),
+    url("https://screencombat.com/v2/ddyme/site_files/download-bt.gif");
+  float: left;
+  display: inline-block;
+}
+
+.download_container:hover {
+  background-position: -274px;
+}
+
+.download_button {
+  border: medium none;
+  vertical-align: middle;
+  padding-left: 12px;
+  font-size: 17px;
+  font-family: Montserrat, Arial Narrow, Arial, Tahoma, Helvetica, sans-serif;
+  text-decoration: none;
+  width: 128px;
+  height: 47px;
+  line-height: 47px;
+  float: left;
+}
+
+.download_button a {
+  color: #e8e7e8;
+  text-decoration: none;
+}
+
+.download_button:hover {
+  color: #f1f1f1;
+  text-decoration: underline;
+}
+
+.download_coin {
+  border: medium none;
+  vertical-align: middle;
+  height: 47px;
+  width: 75px;
+  line-height: 47px;
+  float: right;
+  color: #fdee97;
+  text-align: left;
+  text-decoration: none;
+}
+
+.download_coin a {
+  text-decoration: none;
+}
+
+.download_coin a:hover {
+  text-decoration: none;
+}
+
+.download_coin img {
+  border: medium none;
+  vertical-align: middle;
+  padding-right: 4px;
+}
+
 /*********************************
     /* Comment Area Styles
     *********************************/
