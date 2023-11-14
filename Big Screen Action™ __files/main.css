@@ -209,7 +209,7 @@ body {
     width: calc(99% - 25px) !important;
   }
   .tickercontainer {
-    width: 60% !important;
+    width: 53% !important;
   }
   #comment_ticker_outer_container {
     display: block !important;
@@ -220,6 +220,15 @@ body {
 @media screen and (max-width: 500px) {
   .tickercontainer {
     width: 50% !important;
+  }
+}
+
+@media screen and (max-width: 419px) {
+  .tickercontainer {
+    width: 95% !important;
+  }
+  #comment_ticker_outer_container {
+    height: 50px !important;
   }
 }
 @media screen and (max-width: 1280px) {

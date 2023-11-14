@@ -151,7 +151,7 @@ div#home_splash_video.box1 {
 
 .home_splash_slide {
   width: 100% !important;
-  //height: auto !important;
+  /* //height: auto !important; */
 }
 #carousel_homepage_splash {
   width: auto !important;
@@ -171,7 +171,7 @@ div#home_video_thumb_grid_container {
   /* width: 100%; */
   /* position: relative; */
   /* display: block; */
-  padding-right: 30px;
+  padding-right: 10px;
 }
 
 .home_splash_video_overlay {
@@ -179,7 +179,7 @@ div#home_video_thumb_grid_container {
 }
 .carousel_homepage_splash_img_wide {
   width: 100% !important;
-  //height: 535px;
+  /* //height: 535px; */
 }
 
 @media screen and (max-width: 740px) {
@@ -206,7 +206,7 @@ div#home_video_thumb_grid_container {
   }
   .carousel_homepage_splash_img_wide {
     width: 100% !important;
-    //height: auto !important;
+    /* //height: auto !important; */
   }
 }
 @media only screen and (min-width: 1950px) {
