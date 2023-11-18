@@ -407,6 +407,10 @@ div#home_splash_video.box1 {
   .vid_thumb_grid_box {
     width: 100% !important;
   }
+
+  div#home_splash_video.box1 {
+    margin: 0px 0px 5px 0px !important;
+  }
 }
 
 @media only screen and (max-width: 1384px) and (min-width: 1280px) {
