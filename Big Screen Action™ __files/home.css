@@ -19,6 +19,7 @@
  *Menu Icon 
  **********************
  */
+
 @font-face {
   font-family: "icomoon";
   src: url("fonts/icomoon.eot?-tdl15h");
@@ -321,6 +322,13 @@
 
 /** Media query to break desktop veiw for tablet **/
 
+@media only screen and (min-width: 1505px) {
+  #outter_carousel_wrapper_default {
+    max-width: unset !important;
+    padding: 10px !important;
+  }
+}
+
 @media only screen and (max-width: 993px) {
   /** navigation bar **/
 
@@ -549,6 +557,7 @@
  *Power Search Media Queries
  **********************
  */
+
   .controldivwide div span:first-child,
   .controldivwide div div:first-child {
     width: 90%;
@@ -713,7 +722,7 @@
   .cont11,
   .cont12 {
     padding: 10px 5% 15px 5%;
-    width: 85% !important;
+    width: 100% !important;
   }
 
   .img0,
@@ -918,6 +927,7 @@
   #carousel-wrapper {
     width: 60%;
   }
+
   /***** video view update  *****/
 
   #carousel,
@@ -957,8 +967,12 @@
   .vid_thumb_grid_banner,
   #home_video_thumb_grid_container {
     float: none;
-    padding: 10px 0;
+    padding: 10px 0 0 0;
     margin: 0px auto;
+  }
+
+  #main_outer_container {
+    padding-bottom: 0px !important;
   }
 
   .vid_thumb_grid_box {
@@ -1179,6 +1193,14 @@
     width: 100%;
     height: 100%;
   }
+
+  .cont2 {
+    width: 925px;
+    min-height: 145px;
+    overflow: hidden;
+    margin: 0px 10px 10px 0px !important;
+    padding: 20px 15px 20px 15px;
+  }
 }
 
 /****************************************************************************               End 740px Media query           ********************************************/
@@ -1250,7 +1272,7 @@
   .cont11,
   .cont12 {
     padding: 10px 5% 20px 5%;
-    width: 80% !important;
+    width: 100% !important;
   }
 
   .contA {
@@ -1354,7 +1376,7 @@
   .cont11,
   .cont12 {
     padding: 10px 5% 20px 5%;
-    width: 78% !important;
+    width: 100% !important;
   }
 }
 
@@ -1372,9 +1394,13 @@
   }
 
   #comment_ticker_outer_container {
-    display: table-footer-group;
-    background-position: inherit;
-    background-repeat: no-repeat;
+    display: table-footer-group !important;
+    background-position: inherit !important;
+    background-repeat: no-repeat !important;
+  }
+
+  #main_outer_container {
+    padding-top: 10px !important;
   }
 
   .tickercontainer {
@@ -1443,7 +1469,10 @@
   }
 }
 
-/****************************************************************************               End 630px Media query           ********************************************/
+/****************************************************************************               
+End 630px Media query           
+********************************************/
+
 @media only screen and (max-width: 445px) {
   .controllink div,
   .acc_list span div {
@@ -1479,7 +1508,9 @@
   }
 }
 
-/****************************************************************************               End 445px Media query           ********************************************/
+/****************************************************************************               
+End 445px Media query           
+********************************************/
 
 @media only screen and (max-width: 412px) {
   #outter_carousel_wrapper {
@@ -1500,7 +1531,9 @@
     margin-top: 7px;
   }
 
-  /************************************************        Power Search results         *********************************************************/
+  /************************************************        
+  Power Search results         
+  *********************************************************/
 
   .results {
     width: 100%;
@@ -1574,7 +1607,9 @@
   }
 }
 
-/****************************************************************************               End 412px Media query           ********************************************/
+/****************************************************************************               
+End 412px Media query           
+********************************************/
 
 @media only screen and (max-width: 371px) {
   #header_search div input:first-child {
@@ -1646,7 +1681,7 @@
   .cont11,
   .cont12 {
     padding-top: 5%;
-    width: 78% !important;
+    width: 100% !important;
   }
 
   /***** video view update  *****/
@@ -1663,7 +1698,9 @@
   }
 }
 
-/****************************************************************************               End 371px Media query           ********************************************/
+/****************************************************************************              
+ End 371px Media query           
+********************************************/
 
 @media only screen and (max-width: 350px) {
   #outter_carousel_wrapper {
@@ -1702,7 +1739,9 @@
   }
 }
 
-/****************************************************************************               End 350px Media query           ********************************************/
+/****************************************************************************               
+ End 350px Media query           
+********************************************/
 
 @media only screen and (max-width: 320px) {
   #outter_carousel_wrapper {
@@ -1735,7 +1774,9 @@
   }
 }
 
-/****************************************************************************               End 320px Media query           ********************************************/
+/****************************************************************************               
+ End 320px Media query           
+********************************************/
 
 @media only screen and (max-width: 300px) {
   #outter_carousel_wrapper {
@@ -1756,13 +1797,15 @@
   }
 }
 
-/****************************************************************************               End 300px Media query           ********************************************/
+/****************************************************************************               
+ End 300px Media query           
+********************************************/
 
 /*
  **********************
  *Scaling yutube video***********************
  **********************
- */
+*/
 
 #outter_carousel_wrapper_home {
   width: 100%;
@@ -1807,11 +1850,11 @@
  **********************
  *Hide Menu Icon For Desktop 
  **********************
- */
+*/
 
 @media only screen and (min-width: 2570px) {
   #sub_body_content_left_col {
-    width: 30% !important;
+    width: 17% !important;
   }
 
   #floatmenu {
@@ -1825,7 +1868,7 @@
 
 @media only screen and (max-width: 2570px) and (min-width: 2300px) {
   #sub_body_content_left_col {
-    width: 28% !important;
+    width: 17% !important;
   }
 
   #floatmenu {
@@ -1839,7 +1882,7 @@
 
 @media only screen and (max-width: 2300px) and (min-width: 2100px) {
   #sub_body_content_left_col {
-    width: 26% !important;
+    width: 17% !important;
   }
 
   #floatmenu {
@@ -1853,7 +1896,7 @@
 
 @media only screen and (max-width: 2100px) and (min-width: 2005px) {
   #sub_body_content_left_col {
-    width: 25% !important;
+    width: 17% !important;
   }
 
   #floatmenu {
@@ -1867,7 +1910,7 @@
 
 @media only screen and (max-width: 2005px) and (min-width: 1950px) {
   #sub_body_content_left_col {
-    width: 24% !important;
+    width: 17% !important;
   }
 
   #floatmenu {
@@ -1881,7 +1924,7 @@
 
 @media only screen and (max-width: 1950px) and (min-width: 1800px) {
   #sub_body_content_left_col {
-    width: 22% !important;
+    width: 17% !important;
   }
 
   #floatmenu {
@@ -1894,7 +1937,7 @@
 
 @media only screen and (max-width: 1800px) and (min-width: 1700px) {
   #sub_body_content_left_col {
-    width: 20% !important;
+    width: 17% !important;
   }
 
   #floatmenu {
@@ -1907,7 +1950,7 @@
 
 @media only screen and (max-width: 1700px) and (min-width: 1684px) {
   #sub_body_content_left_col {
-    width: 20% !important;
+    width: 17% !important;
   }
 
   #floatmenu {
@@ -1921,20 +1964,21 @@
 
 @media only screen and (max-width: 1684px) and (min-width: 1384px) {
   #home_body_content_left_col {
-    width: 256px;
+    width: 17%;
   }
 
   #sub_body_content_left_col {
-    width: 256px !important;
+    width: 17% !important;
   }
 }
+
 @media only screen and (max-width: 1384px) and (min-width: 1280px) {
   #home_body_content_left_col {
-    width: 256px;
+    width: 17%;
   }
 
   #sub_body_content_left_col {
-    width: 12% !important;
+    width: 17% !important;
   }
 }
 
@@ -2000,7 +2044,7 @@
   }
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1281px) {
   #navicon,
   .topnav {
     display: none;
@@ -2023,7 +2067,9 @@
   }
 }
 
-/****************************************************************************               End 993px min-width Media query         ********************************************/
+/****************************************************************************               
+ End 993px min-width Media query         
+********************************************/
 @media only screen and (min-width: 740px) {
   /*hide socondary video title home page */
   #home_splash_video span:last-child {
@@ -2031,4 +2077,6 @@
   }
 }
 
-/****************************************************************************               End 993px min-width Media query         ********************************************/
+/****************************************************************************               
+ End 993px min-width Media query         
+********************************************/
