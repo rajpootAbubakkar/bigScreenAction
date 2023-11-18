@@ -393,6 +393,10 @@ div#home_splash_video.box1 {
   #home_body_content_left_col {
     width: 17% !important;
   }
+
+  .vid_thumb_grid_box {
+    width: 100% !important;
+  }
 }
 
 @media only screen and (max-width: 1384px) and (min-width: 1280px) {
