@@ -187,7 +187,7 @@ div#home_video_thumb_grid_container img:hover {
 @media screen and (min-width: 1024px) {
   /*Width & Background color of webticker*/
   #comment_ticker_outer_container {
-    width: calc(68% - 20px) !important;
+    width: calc(65% - 20px) !important;
     border: 10px solid black !important;
   }
 }
@@ -235,8 +235,8 @@ body {
 
 @media screen and (max-width: 500px) {
   .tickercontainer {
-    width: 95% !important;
-    background: #000;
+    width: 70% !important;
+    background: none;
   }
 
   #comment_ticker_outer_container {
@@ -370,6 +370,7 @@ body {
   background-color: black !important;
   padding-top: 10px !important;
   padding-left: 10px !important;
+  padding-right: 10px;
 }
 
 #main_outer_container {
@@ -395,7 +396,7 @@ div#home_splash_video.box1 {
   }
 
   .vid_thumb_grid_box {
-    width: 100% !important;
+    width: 99% !important;
   }
 
   div#home_splash_video.box1 {
@@ -403,9 +404,28 @@ div#home_splash_video.box1 {
   }
 }
 
+@media only screen and (max-width: 2200px) {
+  .vid_thumb_grid_box {
+    width: 98% !important;
+  }
+}
+@media only screen and (max-width: 1460px) {
+  .carousel_homepage_splash_img {
+    width: 55% !important;
+  }
+}
+
 @media only screen and (max-width: 1279px) {
   .vid_thumb_grid_box {
-    width: 100% !important;
+    width: 97% !important;
+  }
+
+  .carousel_homepage_splash_img {
+    width: 45% !important;
+  }
+
+  .home_splash_video_info {
+    width: 225px !important;
   }
 
   div#home_splash_video.box1 {
@@ -419,7 +439,7 @@ div#home_splash_video.box1 {
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
   div#home_splash_video.box1 {
     margin: 0px 20px 5px 0px !important;
   }
@@ -1349,7 +1369,7 @@ ul.newsticker li {
 }
 
 .home_splash_video_info {
-  float: right;
+  float: left;
   width: 288px;
   height: 340px;
   padding-left: 12px;
@@ -3226,9 +3246,9 @@ img#shadow {
   }
 
   .carousel_homepage_splash_img {
-    float: none;
-    width: 100%;
-    overflow: hidden;
+    float: none !important;
+    width: 100% !important;
+    overflow: hidden !important;
   }
 
   .home_splash_video_overlay {
@@ -3286,6 +3306,6 @@ div#Soc_pSocial > .box1 {
 
 @media only screen and (max-width: 993px) {
   .vid_thumb_grid_box {
-    width: 100%;
+    width: 95% !important;
   }
 }
