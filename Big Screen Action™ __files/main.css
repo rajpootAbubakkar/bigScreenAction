@@ -395,17 +395,17 @@ div#home_splash_video.box1 {
   }
 
   .vid_thumb_grid_box {
-    width: 99% !important;
+    width: 100% !important;
   }
 
   div#home_splash_video.box1 {
-    margin: 0px 0px 5px 0px !important;
+    margin: 0px 10px 10px 0px !important;
   }
 }
 
 @media only screen and (max-width: 2200px) {
   .vid_thumb_grid_box {
-    width: 98% !important;
+    width: 99% !important;
   }
 }
 @media only screen and (max-width: 1460px) {
@@ -416,7 +416,7 @@ div#home_splash_video.box1 {
 
 @media only screen and (max-width: 1279px) {
   .vid_thumb_grid_box {
-    width: 97% !important;
+    width: 100% !important;
   }
 
   .carousel_homepage_splash_img {
@@ -3304,6 +3304,18 @@ div#Soc_pSocial > .box1 {
 }
 
 @media only screen and (max-width: 993px) {
+  .vid_thumb_grid_box {
+    width: 98% !important;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .vid_thumb_grid_box {
+    width: 97% !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
   .vid_thumb_grid_box {
     width: 95% !important;
   }
