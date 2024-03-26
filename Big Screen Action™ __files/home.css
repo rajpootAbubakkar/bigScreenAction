@@ -329,6 +329,16 @@
   }
 }
 
+@media screen and (max-width: 1023px) {
+  .cont1Padding {
+    width: 83.2% !important;
+  }
+
+  .cont2Padding {
+    width: 83.2% !important;
+  }
+}
+
 @media only screen and (max-width: 993px) {
   /** navigation bar **/
 
@@ -509,7 +519,7 @@
   }
 
   #home_splash_video {
-    margin: 0px 0px 10px 0px !important;
+    margin: 0px 10px 10px 10px !important;
   }
 
   #outer_container {
@@ -725,6 +735,14 @@
     width: 100% !important;
   }
 
+  .cont1Padding {
+    width: 83.2% !important;
+  }
+
+  .cont2Padding {
+    width: 83.2% !important;
+  }
+
   .img0,
   .img1,
   .img2,
@@ -754,7 +772,7 @@
     float: none;
     border-style: none;
     width: 100%;
-    margin: 0px 0px 0px 0px !important;
+    margin: 0px 10px 10px 0px !important;
     padding: 0px 0px 0px 0px !important;
   }
 
@@ -951,6 +969,18 @@
 }
 
 /****************************************************************************               End 860px Media query           ********************************************/
+
+@media only screen and (max-width: 767px) {
+  .cont1Padding {
+    width: 82% !important;
+  }
+
+  .cont2Padding {
+    width: 82% !important;
+  }
+}
+
+/****************************************************************************               End 767px Media query           ********************************************/
 
 @media only screen and (max-width: 740px) {
   html {
@@ -1158,7 +1188,7 @@
     float: none;
     border-style: none;
     width: 100% !important;
-    margin: 0px 0px 0px 0px !important;
+    margin: 0px 10px 10px 0px !important;
     padding: 0px 0px 0px 0px !important;
   }
 
@@ -1200,6 +1230,14 @@
     overflow: hidden;
     margin: 0px 10px 10px 0px !important;
     padding: 20px 15px 20px 15px;
+  }
+
+  .cont1Padding {
+    width: 80.7% !important;
+  }
+
+  .cont2Padding {
+    width: 80.7% !important;
   }
 }
 
@@ -1254,7 +1292,7 @@
     float: none;
     border-style: none;
     width: 400px;
-    margin: 0px 0px 0px 0px !important;
+    margin: 0px 10px 10px 0px !important;
     padding: 0px 0px 0px 0px !important;
   }
 
@@ -1273,6 +1311,14 @@
   .cont12 {
     padding: 10px 5% 20px 5%;
     width: 100% !important;
+  }
+
+  .cont2Padding {
+    width: 80.7% !important;
+  }
+
+  .cont1Padding {
+    width: 80.7% !important;
   }
 
   .contA {
@@ -1361,25 +1407,6 @@
   }
 }
 
-@media screen and (max-width: 400px) {
-  .cont0,
-  .cont1,
-  .cont2,
-  .cont3,
-  .cont4,
-  .cont5,
-  .cont6,
-  .cont7,
-  .cont8,
-  .cont9,
-  .cont10,
-  .cont11,
-  .cont12 {
-    padding: 10px 5% 20px 5%;
-    width: 100% !important;
-  }
-}
-
 /****************************************************************************               End 710px Media query           ********************************************/
 
 @media only screen and (max-width: 630px) {
@@ -1405,7 +1432,11 @@
 
   .tickercontainer {
     margin-bottom: 8px;
-    margin-top: 28px;
+    margin-top: 0px;
+  }
+
+  #comment_ticker_title {
+    width: 120px !important;
   }
 
   /***** video view update  *****/
@@ -1446,6 +1477,34 @@
 
   #SubpageContentHolder_Instructions b {
     font-size: 3vw;
+  }
+
+  .cont2Padding {
+    width: 74.2% !important;
+  }
+
+  .cont1Padding {
+    width: 74.2% !important;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .cont2Padding {
+    width: 74% !important;
+  }
+
+  .cont1Padding {
+    width: 74% !important;
+  }
+}
+
+@media only screen and (max-width: 498px) {
+  .cont1Padding {
+    width: 73.5% !important;
+  }
+
+  .cont2Padding {
+    width: 73.5% !important;
   }
 }
 
@@ -1610,6 +1669,33 @@ End 445px Media query
 /****************************************************************************               
 End 412px Media query           
 ********************************************/
+
+@media screen and (max-width: 400px) {
+  .cont0,
+  .cont1,
+  .cont2,
+  .cont3,
+  .cont4,
+  .cont5,
+  .cont6,
+  .cont7,
+  .cont8,
+  .cont9,
+  .cont10,
+  .cont11,
+  .cont12 {
+    padding: 10px 5% 20px 5%;
+    width: 100% !important;
+  }
+
+  .cont1Padding {
+    width: 67% !important;
+  }
+
+  .cont2Padding {
+    width: 67% !important;
+  }
+}
 
 @media only screen and (max-width: 371px) {
   #header_search div input:first-child {

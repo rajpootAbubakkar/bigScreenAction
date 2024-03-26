@@ -1,4 +1,3 @@
-
 body {
   background-image: url("/v2/bigscreen/site_files/bigscreenaction-bg.png");
   background-position: center top;
@@ -24,16 +23,21 @@ body {
 
 #comment_ticker_outer_container {
   background-image: url("/v2/bigscreen/site_files/comment-ticker-bg.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   width: 68%;
   margin-bottom: 10px;
   height: 27px;
   overflow: hidden;
   padding-right: 10px;
+  display: flex;
 }
 
 @media only screen and (max-width: 993px) {
   #comment_ticker_outer_container {
-    width: 100% !important;
+    width: calc(98% - 20px) !important;
+    background-position: unset !important;
   }
 }
 
