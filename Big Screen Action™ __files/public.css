@@ -162,9 +162,9 @@ div#home_splash_video.box1 {
   }
 
   div#home_splash_video.box1 {
-    /* display: block;
-    margin: 10px 20px 10px 10px !important; */
-    margin: 0px 10px 10px 0px !important;
+    display: block;
+    margin: 10px 20px 10px 10px !important;
+    /* margin: 0px 10px 10px 0px !important; */
   }
 
   .img14 {
